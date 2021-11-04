@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+header{
+    width: 100vw;
+    height: 15vh;
+    background-color:  #003476;
+    font-style: italic;
+    color: honeydew;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 15vh;
+   
+}
+
+main{
+    width: 100vw;
+    height: 100vh;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lavenderblush;
+}
+
+.section {
+    font-size: 2rem;    
+    max-width: 500px;
+    height: 600px;       
+    margin-bottom: 50px;
+    padding: 30px;
+    border-radius: 50px;
+    background: lawngreen;
+    box-shadow: 18px 18px 38px #003476, -18px -18px 38px #ffff;
+} 
+.section form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section label{
+    display: block;
+    margin: 20px;
+}
+
+.section label span{
+    text-align: center;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.section label input{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 35px;
+    padding-left: 10px;
+    border: solid 1px #bebefe;
+}
+
+.section button{
+    font-weight: bold;
+    margin-top: 20px;
+    width: 100%;
+    height: 35px;
+    background-color: #ececec;
+    box-shadow: 9px 9px 16px rgb(185 185 185 / 60%), -9px -9px 16px rgb(255 255 255 / 50%);
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+footer{
+    margin-top: auto;
+     width: 100vw;
+    height: 15vh;   
+    padding: 3rem 0;
+    color: cornsilk;
+    background-color:brown;
+    font-size: 2rem;
+    text-align: right;
+}  
+
+
+
+
+
